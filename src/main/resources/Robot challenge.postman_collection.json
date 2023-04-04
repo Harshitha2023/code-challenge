@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "187fd6df-6009-4638-a37a-3dac458901af",
+		"name": "Robot challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20939032"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/robot/simulation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"commands\" : [\"PLACE 0,0,NORTH\",\"LEFT\",\"RIGHT\",\"MOVE\",\"REPORT\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/robot/simulation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"robot",
+						"simulation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
