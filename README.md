@@ -68,4 +68,5 @@ Output: ROBOT MISSING
 - The REST-API request body is a Simulation Round object that contains a list of commands.
 - The REST-API response object is a Report object that contains a list of reports, which is the output of the REPORT command if any. 
 - Many Integration tests are added.
+- Added postman collection test json in resource folder.
 
